@@ -1,0 +1,31 @@
+.paragraphContainer {
+    margin: 5rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.word-container {
+    padding: 1rem;
+    list-style-type: none;
+    background-color: lightgray;
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    min-inline-size: fit-content;
+}
+
+.list-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    grid-auto-rows: 100px;
+}
