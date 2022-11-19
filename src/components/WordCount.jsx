@@ -51,18 +51,22 @@ function WordCount() {
 
     wordCount(textInput)
 
-    // sort the array from largest count value to smallest
+    // sort the array smallest to largest
     answerArray.sort(function (a, b) {
         return a.count - b.count;
     });
 
+    // get first half
     let arr1 = answerArray.slice(0, answerArray.length / 2);
+    // get second half
     let arr2 = answerArray.slice(answerArray.length / 2, answerArray.length);
 
+    // sort second half from largest to smallest
     arr2.sort(function (a, b) {
         return b.count - a.count;
     });
 
+    // values are now bell shaped 
     answerArray = arr1.concat(arr2);
 
 
@@ -75,10 +79,8 @@ function WordCount() {
             <ul className='list-container'>
                 {answerArray.map(object => {
 
-                    let newFontSize = object.count+minimumFontSize;
+                    let newFontSize = object.count + minimumFontSize;
                     let color;
-                    let index = answerArray.indexOf(object);
-                    index = `word-container index${index+1}`
 
                     if (object.count < 5) {
                         color = littleColor;
@@ -94,7 +96,7 @@ function WordCount() {
                     }
 
                     return (
-                        <li className={index} style={fontStyle}>
+                        <li className="word-container" style={fontStyle}>
                             {object.word}
                         </li>
                     )
