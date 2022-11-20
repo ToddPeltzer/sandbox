@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Main from './components/Main';
 import WordCount from './components/WordCount';
+import BrickSpotlight from './components/BrickSpotlight';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         />
         <Route  path = "/word-count"
                 element = {<WordCount />}
+        />
+        <Route  path = "/brick-spotlight"
+                element = {<BrickSpotlight />}
         />
       </Routes>
     </BrowserRouter>
