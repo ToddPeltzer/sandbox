@@ -8,6 +8,8 @@ function Main() {
             <Link to="/word-count">Word Count</Link>
             <br></br>
             <Link to="/brick-spotlight">Brick Spotlight</Link>
+            <br></br>
+            <Link to="/pokemon">Pokemon</Link>
         </div>
     );
 }

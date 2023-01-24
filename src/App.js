@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import WordCount from './components/WordCount';
 import BrickSpotlight from './components/BrickSpotlight';
+import Pokemon from './components/Pokemon';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         />
         <Route  path = "/brick-spotlight"
                 element = {<BrickSpotlight />}
+        />
+        <Route  path = "/pokemon"
+                element = {<Pokemon />}
         />
       </Routes>
     </BrowserRouter>
