@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route  path = "/"
+        <Route  path = "/sandbox"
                 element = {<Main />}
         />
         <Route  path = "/word-count"
