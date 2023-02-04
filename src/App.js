@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import WordCount from './components/WordCount';
 import Canvas from './components/Canvas';
-import Pokemon from './components/Pokemon';
+import Pokemon from './pokemonComponents/Pokemon';
 
 
 function App() {

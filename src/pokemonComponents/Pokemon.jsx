@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "../styles/pokedex.css";
+import "../pokemonStyles/pokedex.css";
 
 function Pokemon() {
 
