@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import WordCount from './components/WordCount';
 import BrickSpotlight from './components/BrickSpotlight';
-import Pokemon from './components/Pokemon';
+import Pokemon from './pokemonComponents/Pokemon';
 
 function App() {
   return (
