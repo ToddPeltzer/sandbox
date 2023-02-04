@@ -7,7 +7,7 @@ function Main() {
             <h1>Sandbox Home</h1>
             <Link to="/word-count">Word Count</Link>
             <br></br>
-            <Link to="/brick-spotlight">Brick Spotlight</Link>
+            <Link to="/canvas">Canvas</Link>
             <br></br>
             <Link to="/pokemon">Pokemon</Link>
         </div>
