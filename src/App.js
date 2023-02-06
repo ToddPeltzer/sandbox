@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Main from './components/Main';
 import WordCount from './components/WordCount';
-import Canvas from './components/Canvas';
+import Canvas from './canvasComponents/Canvas';
 import Pokemon from './pokemonComponents/Pokemon';
 
 
@@ -16,13 +16,13 @@ function App() {
         <Route  path = "/sandbox"
                 element = {<Main />}
         />
-        <Route  path = "/word-count"
+        <Route  path = "/sandbox/word-count"
                 element = {<WordCount />}
         />
-        <Route  path = "/canvas"
+        <Route  path = "/sandbox/canvas"
                 element = {<Canvas />}
         />
-        <Route  path = "/pokemon"
+        <Route  path = "/sandbox/pokemon"
                 element = {<Pokemon />}
         />
       </Routes>

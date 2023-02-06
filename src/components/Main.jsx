@@ -5,11 +5,11 @@ function Main() {
     return (
         <div>
             <h1>Sandbox Home</h1>
-            <Link to="/word-count">Word Count</Link>
+            <Link to="/sandbox/word-count">Word Count</Link>
             <br></br>
-            <Link to="/canvas">Canvas</Link>
+            <Link to="/sandbox/canvas">Canvas</Link>
             <br></br>
-            <Link to="/pokemon">Pokemon</Link>
+            <Link to="/sandbox/pokemon">Pokemon</Link>
         </div>
     );
 }

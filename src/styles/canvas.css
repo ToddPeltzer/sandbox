@@ -1,6 +1,21 @@
 .canvas-circle-container {
-    position: absolute;
-    background: darkgray;
+    background: #000000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.canvas-generate-circle-container {
+    background: #000000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.canvas-random-circle-mouse-container {
+    background: #000000;
     width: 100%;
     height: 100%;
     top: 0;
