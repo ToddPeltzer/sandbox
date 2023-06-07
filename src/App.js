@@ -5,6 +5,7 @@ import Main from './components/Main';
 import WordCount from './components/WordCount';
 import Canvas from './canvasComponents/Canvas';
 import Pokemon from './pokemonComponents/Pokemon';
+import CanvasImage from './canvasComponents/CanvasFallingPixel';
 
 
 function App() {
@@ -19,8 +20,11 @@ function App() {
         <Route  path = "/sandbox/word-count"
                 element = {<WordCount />}
         />
-        <Route  path = "/sandbox/canvas"
+        <Route  path = "/sandbox/canvas-mouse"
                 element = {<Canvas />}
+        />
+        <Route  path = "/sandbox/canvas-image"
+                element = {<CanvasImage />}
         />
         <Route  path = "/sandbox/pokemon"
                 element = {<Pokemon />}
