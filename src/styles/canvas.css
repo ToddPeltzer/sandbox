@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+canvas {
+    border: 2px solid white;
+}
+
 .canvas-circle-container {
     background: #000000;
     width: 100%;

@@ -16,11 +16,18 @@ function GeneratedCircles() {
         //will be used to store the generated particles
         const particleArray = [];
 
+        let hue = 0;
+
         // mouse object
         const mouse = {
             x: null,
             y: null
         }
+
+        window.onload = function() {
+            canvas.height = window.innerHeight;
+            canvas.width = window.innerWidth;
+        };
 
         // responsive for the canvas area
         window.addEventListener('resize', function(){
@@ -56,7 +63,7 @@ function GeneratedCircles() {
             }
             //making the particle a circle
             draw() {
-                ctx.fillStyle = "#FFFFFF";
+                ctx.fillStyle = `hsl(${hue}, 100%, 50%)`;
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
                 ctx.fill();
@@ -85,6 +92,7 @@ function GeneratedCircles() {
         function animate() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             handleParticles();
+            hue++;
             requestAnimationFrame(animate);
         }
         animate();

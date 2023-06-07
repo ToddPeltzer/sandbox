@@ -20,6 +20,11 @@ function CanvasCircle() {
             y: null
         }
 
+        window.onload = function() {
+            canvas.height = window.innerHeight;
+            canvas.width = window.innerWidth;
+        };
+
         // responsive for the canvas area
         window.addEventListener('resize', function(){
             canvas.width = window.innerWidth;

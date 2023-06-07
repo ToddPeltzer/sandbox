@@ -2,6 +2,7 @@ import React from 'react';
 import CanvasCircle from './CanvasCircle';
 import CanvasMouseEffects from './CanvasMouseEffects';
 import GeneratedCircles from './GeneratedCircles';
+import CanvasFallingPixels from './CanvasFallingPixels';
 import '../styles/canvas.css';
 
 function Canvas() {
@@ -16,6 +17,9 @@ function Canvas() {
             </div>
             <div className="canvas-mouse-container">
                 <CanvasMouseEffects />
+            </div>
+            <div className="canvas-falling-container">
+                <CanvasFallingPixels />
             </div>
         </div>
     );
