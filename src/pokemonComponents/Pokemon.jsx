@@ -58,6 +58,9 @@ function Pokemon() {
                                         </ul>
                                     </h3>
                                 </div>
+                                <div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
