@@ -5,7 +5,6 @@ import Main from './Main';
 import WordCount from './components/WordCount';
 import Canvas from './canvasComponents/Canvas';
 import Pokemon from './pokemonComponents/Pokemon';
-import ScrollAnimationMain from './AnimationComponents/ScrollAnimationMain';
 
 
 function App() {
@@ -25,9 +24,6 @@ function App() {
         />
         <Route  path = "/sandbox/pokemon"
                 element = {<Pokemon />}
-        />
-        <Route  path = "/sandbox/3d-scroll"
-                element = {<ScrollAnimationMain />}
         />
       </Routes>
     </BrowserRouter>

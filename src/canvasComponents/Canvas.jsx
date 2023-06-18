@@ -7,15 +7,15 @@ import '../styles/canvas.css';
 function Canvas() {
 
     return (
-        <div>
+        <div className="canvas-page">
+            <div className="canvas-mouse-container">
+                <CanvasMouseEffects />
+            </div>
             <div className="canvas-circle-container">
                 <CanvasCircle />
             </div>
             <div className="canvas-generate-circle-container">
                 <GeneratedCircles />
-            </div>
-            <div className="canvas-mouse-container">
-                <CanvasMouseEffects />
             </div>
         </div>
     );
